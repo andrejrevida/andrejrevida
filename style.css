@@ -1,0 +1,321 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(images//header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-family: 'Roboto', sans-serif;
+  background-color: grey;
+
+
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #edeaea75;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6e6565;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+}
+
+ 
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+  /* Footer height */
+}
+
+
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+h2 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+hr {
+  /* color: rgb(235, 99, 49); */
+
+  border-width: 3px;
+  border-color: rgb(230, 80, 25);
+  max-width: 65px;
+
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.buttonxl {
+
+  padding: 1rem 2rem;
+
+}
+
+.btn-primary {
+  background-color: rgb(231, 154, 12);
+  border-color: rgb(231, 154, 12);
+}
+
+.btn-primary:hover {
+  background-color: rgb(230, 80, 25);
+  border-color: rgb(230, 80, 25);
+  /*border-width: 4px;*/
+}
+
+.btn-secondary {
+  background-color: rgba(32, 40, 43, 0.525);
+  border-color: rgb(231, 154, 12);
+  border-radius: 30px;
+  color: aliceblue;
+  
+  
+
+
+}
+
+.btn-secondary:hover {
+  background-color: rgb(59, 124, 174);
+  border-color: rgb(230, 80, 25);
+  /*border-width: 4px;*/
+
+}
+
+/*buffers when needed*/
+.buffer {
+  height: 13rem;
+}
+
+.top-buffer {
+  margin-top: 30px;
+}
+
+.top-buffer_big {
+  margin-top: 60px;
+}
+.top-buffer_big2 {
+  margin-top: 100px;
+}
+.top-buffer_small {
+  margin-top: 10px;
+}
+.right-buffer {
+  margin-right: 30px;
+}
+
+.bottom-buffer {
+  margin-bottom: 30px;
+}
+
+.bottom-buffer_big {
+  margin-bottom: 60px;
+}
+
+
+/*buffers when needed*/
+.navbar {
+  background-color: rgba(240, 248, 255, 0);
+ 
+
+}
+
+/*other images in navbar*/
+.nav-image {
+  height: 45px;
+  width: 45px;
+  padding: 5px;
+  margin: 5px;
+  background-color: transparent;
+
+
+  
+  position: relative;
+  top: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+/*main logo in navbar*/
+.nav-image_main {
+  height: 150px;
+  width: 150px;
+  margin-right: 10%;
+  border-radius: 130px;
+}
+
+.navbar-bck {
+  background-color: rgba(231, 12, 195, 0);
+  border-color: rgb(231, 154, 12);
+
+}
+
+.nav-hover {
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  transition: transform ease 300ms;
+  margin: 10px;
+
+}
+
+.nav-hover:hover {
+  transform: translate(0, -10px);
+}
+
+
+/*not a test anymore :D*/
+.test {
+  /*navbar color*/
+  background-color: rgb(47, 66, 73);
+  border-color: rgb(231, 154, 12);
+  padding: 20px;
+  padding-top: 30px;
+  color: aliceblue;
+}
+
+/*keeping navbar at the top*/
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+
+}
+
+/*GALLERY*/
+.gal {
+  width: 400px;
+  height: 300px;
+  margin: 3px;
+  transition: all 400ms;
+}
+
+.gal-main {
+  width: 400px;
+  height: 300px;
+  margin: 3px;
+  transition: all 400ms;
+}
+
+img:hover {
+
+  transform: scale(1.1);
+
+}
+.gal-main:hover {
+
+  transform: scale(1.5);
+
+}
+.gal-feed {
+  transition: all 400ms;
+}
+
+/* GALLERY container*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* GALLERY container*/
+.container-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.text {
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  margin: 5px;
+
+}
+
+.text-card {
+  width: 100%;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  margin: 5px;
+  background-color: rgba(83, 96, 96, 0.9);
+}
+
+
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* card color*/
+  background-color: rgba(83, 96, 96, 0.9);
+}
+
+.gscustomwidth {
+ 
+  width: 100%;
+  }
+
+/* Footer */
+
+#header {
+
+  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(83, 96, 96, 0.9);
+}
+
+.footer-content {
+
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+
+}
+
+/* Footer */

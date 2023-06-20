@@ -1,0 +1,90 @@
+/*  contact table formating   */
+table,
+td,
+th {
+    /* border: 1px solid black;*/
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.table-background {
+    background-color: rgba(83, 96, 96, 6);
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    border-radius: 15px;
+}
+
+th {
+    text-align: center;
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-image {
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+    margin: 5px;
+    right: 5px;
+
+}
+
+.table-test {
+
+    width: 100%;
+    background-color: transparent;
+}
+
+
+.table-list {
+
+    text-align: left;
+    padding-left: 20%;
+}
+
+.table-list_zab {
+
+    text-align: left;
+    padding-left: 10%;
+    border-radius: 10px;
+    border-color: aqua;
+}
+
+.table-list_cenm {
+
+    text-align: left;
+    padding-left: 5%;
+    
+}
+
+.table-list_cen {
+
+    text-align: left;
+    padding-left: 5%;
+}
+.table-border_top {
+
+    border-top: 1px solid rgba(0, 0, 0, 0.651);
+}
+
+.table-text {
+    width: 100%;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+/*  contact table formating   */
+
+
+/* The progress container (grey background) */
